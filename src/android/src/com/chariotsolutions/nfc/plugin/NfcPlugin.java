@@ -116,8 +116,8 @@ public class NfcPlugin extends CordovaPlugin {
         }
 
         // the channel is set up when the plugin starts
-//        if (action.equalsIgnoreCase(CHANNEL)) {
-        if (action.equalsIgnoreCase(READER_MODE)) {
+        if (action.equalsIgnoreCase(CHANNEL)) {
+        // if (action.equalsIgnoreCase(READER_MODE)) {
             channelCallback = callbackContext;
 
             if (postponedPluginResult != null) {
